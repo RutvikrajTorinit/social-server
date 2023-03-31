@@ -7,7 +7,7 @@ export const getUsers = async (_: Request, res: Response) => {
 
   res
     .status(200)
-    .json({ "message": "Fetched all users successfully", "data": users });
+    .json({ "message": "Fetched users successfully", "data": users });
 };
 
 export const getUser = async (req: Request, res: Response) => {
